@@ -1,0 +1,11 @@
+albumentations==0.5.1
+opencv-python==4.0.1.24
+pycocotools==2.0.2
+torch~=1.5.0+cu101
+torchaudio==0.7.0
+torchvision~=0.6.0+cu101
+wandb==0.9.7
+numpy~=1.19.2
+matplotlib~=3.3.3
+pillow~=8.0.1
+pyyaml~=5.3.1
