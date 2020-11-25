@@ -10,23 +10,27 @@ pip install -r requirements.txt
 ![alt text](images/visualization.png)
 
 ## Usage
-Before training, Please edit in config files (./config/config.yaml) and (./config/labels_name.py)
-With ./config/config.yaml:
-    config path for train and evaluate with format :
+Before training, Please edit in config files (./config/config.yaml) and (./config/labels_name.py)\
+With ./config/config.yaml:\
+Config path for train and evaluate with format :\
+```
         train/
                annotations/
                     annotations.json (with coco format)
                images/
-        valid
+        valid/
                annotations/
                     annotations.json (with coco format)
                images/
-               
-With (./config/labels_name.py)
-    config with format:
-        names = {'0': 'background', 
+```              
+
+With (./config/labels_name.py)\
+config with format:
+```
+        names = {'0': 'background',
                  '1' : 'object_1',
                  '2': 'object_2', ... }
+```               
                  
 For training:
 ```
